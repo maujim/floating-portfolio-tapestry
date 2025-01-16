@@ -58,9 +58,14 @@ export default {
           "0%": { transform: "translateY(-20px)", opacity: "0" },
           "100%": { transform: "translateY(0)", opacity: "1" },
         },
+        "spin": {
+          "0%": { transform: "rotateZ(0deg)" },
+          "100%": { transform: "rotateZ(360deg)" },
+        },
       },
       animation: {
         "float-in": "float-in 0.8s ease-out forwards",
+        "spin": "spin 1.6s linear infinite",
       },
     },
   },
